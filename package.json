@@ -1,0 +1,16 @@
+{
+  "name": "elixirscript_test",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -rf priv/elixir_script/build",
+    "compile": "webpack --progress"
+  },
+  "author": "",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "webpack": "^3.10.0",
+    "webpack-synchronizable-shell-plugin": "0.0.6"
+  }
+}
